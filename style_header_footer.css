@@ -1,0 +1,40 @@
+/* styling for header*/
+
+header {
+   font-family: arial, sans-serif;
+   font-size: 13px;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+li a {
+   display: block;
+   padding: 5px;
+}
+
+li {
+   display: inline;
+   float: left;
+}
+
+/* styling for footer */
+
+footer {
+   background-color: #f2f2f2;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+#footer_c {
+   display: flex;
+}

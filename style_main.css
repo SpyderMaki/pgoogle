@@ -1,0 +1,48 @@
+/* Styling for main section with google logo and search buttons */
+
+html {
+   font-family: arial, sans-serif;
+   font-size: 13px;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 233px;
+   margin: 150px 0px 0px;
+}
+
+/* search box styling */
+input#searchbox {
+   margin-top: 20px;
+   height: 37px;
+   width: 482px;
+   border-radius: 25px;
+   border: 1px solid #dfe1e5;
+}
+
+/* search buttons styling */
+form {
+margin: 10px;
+}
+
+.search_button {
+   height: 36px;
+   width: 137px;
+   border-radius: 5px;
+   border-color: transparent;
+   background-color: #f8f9fa;
+}
+
+#search_button1 { 
+   margin-right: 10px;
+}
+
+#search_button2 {
+   margin-left: 10px;
+}
+
+.search_button:hover {
+   border: 1px solid #dadce0;
+}
