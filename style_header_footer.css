@@ -1,6 +1,8 @@
 /* styling for header*/
 
 header {
+   position: relative;
+   top: 0;
    font-family: arial, sans-serif;
    font-size: 13px;
 }
@@ -8,6 +10,20 @@ header {
 nav {
    display: flex;
    justify-content: space-between;
+   padding: 5px;
+}
+
+a:link {
+   color: #000000;
+   text-decoration: none;
+}
+
+a:visited {
+   color: #000000;
+}
+
+a:hover {
+   text-decoration: underline;
 }
 
 ul {
@@ -22,7 +38,7 @@ li a {
 }
 
 li {
-   display: inline;
+   display: block;
    float: left;
 }
 
@@ -32,6 +48,7 @@ footer {
    background-color: #f2f2f2;
    position: fixed;
    bottom: 0;
+   padding: 5px;
    width: 100%;
 }
 
